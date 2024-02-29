@@ -7,7 +7,7 @@ const requestLogger = (request, response, next) => {
   logger.info("Path:  ", request.path);
   logger.info("Body:  ", request.body);
   logger.info("---");
-  next();
+  next(); // SHOULD USE NEXT
 };
 
 const unknownEndpoint = (request, response) => {
