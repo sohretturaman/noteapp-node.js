@@ -1,0 +1,8 @@
+
+
+sonar.projectKey=npm
+
+sonar.organization=devopshint
+
+sonar.sources=.
+
